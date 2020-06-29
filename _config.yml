@@ -53,6 +53,8 @@ menu:
     url:               /hydejack/
   - title:             Hyde
     url:               /hyde/
+  - title:             RabbitMQ
+    url:               /RabbitMQ/
   - title:             Documentation
     url:               /docs/
   - title:             About
