@@ -53,7 +53,7 @@ menu:
   - title:             Hyde
     url:               /hyde/
   - title:             RabbitMQ
-    url:               /RabbitMQ/
+    url:               /rabbitmq/
   - title:             Documentation
     url:               /docs/
   - title:             About
