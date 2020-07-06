@@ -1,6 +1,6 @@
 ---
 layout: list
-title: RabbitMq
+title: RabbitMqwwwww
 slug: rabbitmq
 menu: true
 order: 1
