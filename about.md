@@ -23,7 +23,7 @@ image: /assets/img/blog/hydejack-8.png
 
 [wikipedia]: https://es.wikipedia.org/wiki/Camino_del_deseo
 [linkedin]: https://ar.linkedin.com/in/frabrizio-contin-24a8b949
-[microsoftlearn]: https://docs.microsoft.com/en-us/users/frabriziocontin/
+[microsoftlearn]: https://docs.microsoft.com/en-us/users/frabriziocontin
 [github]: https://github.com/frabriziocontin
 [cv]: https://drive.google.com/drive/folders/0B8oxDrEuv47VcG5JUGlOYUswNFU
 
