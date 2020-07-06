@@ -15,8 +15,8 @@ image: /assets/img/blog/hydejack-8.png
 **Frabrizio contin**: Desde mi punto de vista, el camino deseado, es elegir el mejor camino posible, sin entrar en demasiados detalles. Teniendo definido dicho camino, comenzar su construcción.
 
 [linkedin]
-[github]
 [microsoftlearn]
+[github]
 [cv]
 
 
