@@ -6,7 +6,7 @@ image: /assets/img/blog/hydejack-8.png
 
 
 ## DsLine
-**DesireLine/Camino deseado** Los caminos del deseo son caminos que suelen aparecer sobre el césped creados por la erosión causada por pasos humanos o de animales. Estos caminos usualmente representan el camino más corto o de más fácil acceso entre un origen y un destino determinados.[wikipedia].
+**Desire Line/Camino deseado** Los caminos del deseo son caminos que suelen aparecer sobre el césped creados por la erosión causada por pasos humanos o de animales. Estos caminos usualmente representan el camino más corto o de más fácil acceso entre un origen y un destino determinados.[wikipedia].
 
 
 
