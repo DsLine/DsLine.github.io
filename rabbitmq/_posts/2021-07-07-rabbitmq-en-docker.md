@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example content2
+title: RabbitMq multi Tenant  
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  La idea de este post es demostrar como se puede utilizar RabbitMQ para multiples inquilinos en diferentes bases de datos.
 author: author2
 noindex: true
 ---
