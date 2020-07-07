@@ -7,9 +7,9 @@ author: Contin Frabrizio
 noindex: true
 ---
 
-![Dark Mode](/assets/img/blog/RabbitMQmultitenant.PNG){:data-width="1440" data-height="836"}
+<!-- ![Dark Mode](/assets/img/blog/RabbitMQmultitenant.PNG){:data-width="1440" data-height="836"}
 *This is what it looks like!*
-{:.figure}
+{:.figure} -->
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
