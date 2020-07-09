@@ -7,9 +7,16 @@ author: Frabrizio contin
 noindex: true
 ---
 
-![Rabbit multitenant](/assets/img/blog/RabbitMQmultitenant.jpg){:data-width="1440" data-height="836"}
+![Screenshot](../../assets/img/blog/RabbitMQmultitenant.png)
+![Cover page example](/assets/img/blog/RabbitMQmultitenant.png){:data-width="960" data-height="540"}
+![Full-width image](https://drive.google.com/file/d/1EQYYjJrgvQxyEvU-wjjr8aqwxO4AMpLf/view?usp=sharing){:.lead data-width="800" data-height="100"}
 
-**Introducción **
+![Screenshot](/assets/img/RabbitMQmultitenant.png)
+![Adaptive Dark Mode Example](/assets/img/blog/dark-mode-ii.jpg){:data-width="1440" data-height="836"}
+
+![Rabbit multi](/assets/img/blog/RabbitMQmultitenant.jpg){:data-width="1440" data-height="836"}
+
+**Introducción**:
 La idea de esta post es presentar una forma de conectar distintos inquilinos a sus propias bases de datos (Llamemos por el momento inquilinos a un grupo empresario, cliente o empresas que quieren tener sus propias base de datos, con sus colas en RabbitMq separadas de otros inquilinos para resguardar su seguridad).
 Por el momento solo nos enfocaremos en la conexión de peticiones desde un sitio (microservicio1) para el “inquilino 1”  a otro sitio (microservicio2) para el mismo inquilino 
 
