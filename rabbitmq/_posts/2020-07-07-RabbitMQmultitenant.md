@@ -9,7 +9,7 @@ noindex: true
 
 ![Screenshot](../../assets/img/blog/RabbitMQmultitenant.png)
 ![Cover page example](/assets/img/blog/RabbitMQmultitenant.png){:data-width="960" data-height="540"}
-![Full-width image](/assets/img/blog/RabbitMQmultitenant.png){:.lead data-width="800" data-height="100"}
+![Full-width image](https://drive.google.com/file/d/1EQYYjJrgvQxyEvU-wjjr8aqwxO4AMpLf/view?usp=sharing){:.lead data-width="800" data-height="100"}
 
 ~~~yml
 layout: post
