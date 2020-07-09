@@ -22,8 +22,8 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         FrabrizioC
-    github:          frabriziocontin
+    #twitter:         FrabrizioC
+    #github:          frabriziocontin
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -53,7 +53,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-     linkedin:        frabrizio-contin-24a8b949
+    # linkedin:        frabrizio-contin-24a8b949
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
