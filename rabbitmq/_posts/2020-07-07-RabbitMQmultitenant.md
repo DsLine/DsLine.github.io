@@ -3,7 +3,7 @@ layout: post
 title: RabbitMQ Multitenant DB
 description: >
   Como manejar múltiples inquilinos en distintas bases de datos utilizando Virtual Host de RabbitMq.
-author: Frabrizio contin
+author: author1
 noindex: true
 ---
 

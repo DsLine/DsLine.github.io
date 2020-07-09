@@ -3,7 +3,7 @@ layout: post
 title: RabbitMQ en Docker
 description: >
   Como agregar RabbitMQ a un contenedor en Docker 
-author: author2
+author: author1
 noindex: true
 ---
 
