@@ -12,7 +12,9 @@ noindex: true
 ![Full-width image](https://drive.google.com/file/d/1EQYYjJrgvQxyEvU-wjjr8aqwxO4AMpLf/view?usp=sharing){:.lead data-width="800" data-height="100"}
 
 ![Screenshot](/assets/img/RabbitMQmultitenant.png)
+![Adaptive Dark Mode Example](/assets/img/blog/dark-mode-ii.jpg){:data-width="1440" data-height="836"}
 
+![Rabbit multi](/assets/img/blog/RabbitMQmultitenant.jpg){:data-width="1440" data-height="836"}
 ~~~yml
 layout: post
 title: RabbitMq multitenant DB
