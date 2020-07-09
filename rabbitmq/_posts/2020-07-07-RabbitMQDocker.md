@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introducing Hyde2
+title: RabbitMQ en Docker
 description: >
-  Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
+  Como agregar RabbitMQ a un contenedor en Docker 
 author: author2
 noindex: true
 ---

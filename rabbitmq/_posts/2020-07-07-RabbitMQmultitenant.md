@@ -1,11 +1,18 @@
 ---
 layout: post
-title: What's Jekyll3?
+title: RabbitMQ Multitenant DB
 description: >
-  Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+  Hoy en dia estamo
 author: author2
 noindex: true
 ---
+
+~~~yml
+layout: post
+title: RabbitMq multitenant DB
+image: /assets/img/blog/RabbitMQmultitenant.png
+color: '#949667'
+~~~
 
 [Jekyll](https://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
