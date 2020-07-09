@@ -7,6 +7,8 @@ author: author2
 noindex: true
 ---
 
+![Screenshot](assets/img/blog/RabbitMQmultitenant.png)
+
 ~~~yml
 layout: post
 title: RabbitMq multitenant DB
