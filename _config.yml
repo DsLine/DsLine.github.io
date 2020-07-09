@@ -16,7 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en,es
+lang:                  es,en
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 DsLines
@@ -304,11 +304,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/FrabrizioC
-#     - https://github.com/frabriziocontin
+ social:
+   name:               Frabrizio Contin
+   links:
+#     - https://twitter.com/DsLine
+      - https://github.com/DsLine
 
 
 # Other Plugins

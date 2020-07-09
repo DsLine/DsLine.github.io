@@ -2,28 +2,17 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Frabrizio Contin
+  email:             frabriziocontin@hotmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
-
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+    Desarrollador .NET 
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            https://media-exp1.licdn.com/dms/image/C4E03AQF-WqY0ZOFpoQ/profile-displayphoto-shrink_200_200/0?e=1599696000&v=beta&t=68BbgZ5nMUAGTcLHtWAtLfTnm4NtJe2gcl9CDYJI87w
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://placehold.it/128x128
@@ -33,8 +22,8 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
+    twitter:         FrabrizioC
+    github:          frabriziocontin
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -64,7 +53,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+     linkedin:        frabrizio-contin-24a8b949
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
