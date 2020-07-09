@@ -8,7 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Desarrollador .NET 
+    Ing. en Sistemas, desarrollador, apasionado del código, buscador empedernido de soluciones difíciles, referente en temas tecnológicas en mi familia, amante de las plantas y destructor de artefactos electronicos.
+    
 
   # This photo will be used in the about section
   picture:
