@@ -7,8 +7,8 @@ author: author2
 noindex: true
 ---
 
-![Screenshot](../assets/img/blog/RabbitMQmultitenant.png)
-![Cover page example](../assets/img/blog/RabbitMQmultitenant.png){:data-width="960" data-height="540"}
+![Screenshot](../../assets/img/blog/RabbitMQmultitenant.png)
+![Cover page example](/assets/img/blog/RabbitMQmultitenant.png){:data-width="960" data-height="540"}
 
 ~~~yml
 layout: post
