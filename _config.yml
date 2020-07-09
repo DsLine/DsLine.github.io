@@ -48,14 +48,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Hydejack
-    url:               /hydejack/
-  - title:             Hyde
-    url:               /hyde/
+  # - title:             Hydejack
+  #   url:               /hydejack/
+  # - title:             Hyde
+  #   url:               /hyde/
   - title:             RabbitMQ
     url:               /rabbitmq/
-  - title:             Documentation
-    url:               /docs/
+  # - title:             Documentation
+  #   url:               /docs/
   - title:             About
     url:               /about/
 
