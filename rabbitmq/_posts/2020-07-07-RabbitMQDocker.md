@@ -7,6 +7,8 @@ author: author1
 noindex: true
 ---
 
+### RabbitMQ en Docker
+
 ### Introducción.
 
 En este post veremos como instalar RabbitMQ en Docker y también vamos a realizar unas pruebas desde un proyecto en NetCore 3.1 para aprender a escribir y leer mensajes de una cola. 
@@ -20,7 +22,14 @@ https://docs.docker.com/engine/install/ubuntu/
 
 Por el momento solo vamos a subir la imagen de RabbitMQ por ende vamos a usar Docker cli ejecutando el siguiente comando en la consola.
 
+~~~Docker
  docker run -d -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+~~~
+
+An optional caption for a code block
+{:.figcaption}
+
+
 
 -d Nos permite correr el contendor en segundo plano.
 -p Especificamos como publicar los puertos en el host (En nuestro caso tanto interna como externamente vamos a utilizar los mismos puertos)
