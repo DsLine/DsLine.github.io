@@ -7,41 +7,28 @@ author: author1
 noindex: true
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+### Introducción.
 
-**NOTE**: This post is outdated and only included for legacy reasons.
-See the [Documentation][docs] for up-to-date instructions.
+En este post veremos como instalar RabbitMQ en Docker y también vamos a realizar unas pruebas desde un proyecto en NetCore 3.1 para aprender a escribir y leer mensajes de una cola. 
+
+**NOTA**:  Si todavía no tiene instalado Docker en su sistema operativo, les dejo un link para su instalación.
+https://docs.docker.com/docker-for-windows/install/
+https://docs.docker.com/engine/install/ubuntu/
 {:.message}
 
-### Built on Poole
+### Instalación de RabbitMQ en Docker.
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+Por el momento solo vamos a subir la imagen de RabbitMQ por ende vamos a usar Docker cli ejecutando el siguiente comando en la consola.
 
-* Complete Jekyll setup included (layouts, config, [404]({{ '/404' | relative_url }}), [RSS feed]({{'/feed.xml' | relative_url }}){:.external}, posts, and [example page]({{ '/about/' | relative_url }}))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+ docker run -d -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
-### Hyde features
+-d Nos permite correr el contendor en segundo plano.
+-p Especificamos como publicar los puertos en el host (En nuestro caso tanto interna como externamente vamos a utilizar los mismos puertos)
+rabbitmq:3-management  Por ultimo especificamos la imagen base que queremos utilizar y luego de “:” la versión de la misma “3-management”
 
-In addition to the features of Poole, Hyde adds the following:
+Para verificar que el contenedor esté corriendo correctamente, ingresen a http://localhost:15672/ con usuario y contraseña guest/ guest. 
 
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `<body>` classes
+**NOTA**: Este usuario es cargado por defecto, pero dicho usuario no puede utilizarse en entornos productivos, ya que está restringido para conexiones externas.
+Si desea cambiar el nombre de usuario y la contraseña predeterminados, puede hacerlo con las variables ambientales RABBITMQ_DEFAULT_USERy RABBITMQ_DEFAULT_PASS
+{:.message}
 
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
-
-### Browser support
-
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-Hyde is developed on and hosted with GitHub. Head to the [GitHub repository](https://github.com/poole/hyde) for downloads, bug reports, and features requests.
-
-Thanks!
-
-[docs]: ../../docs/README.md
