@@ -93,8 +93,7 @@ class ​Send
    ​}
 }
 ~~~
-An optional caption for a code block
-{:.figcaption}
+
 
 Dentro de nuestro proyecto Recibir
 Agregar el siguiente código.
@@ -136,6 +135,4 @@ class Receive
     }
 }
 ~~~
-An optional caption for a code block
-{:.figcaption}
 
