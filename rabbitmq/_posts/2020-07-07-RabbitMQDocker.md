@@ -42,7 +42,7 @@ Luego instalar la librería de RabbitMQ.Client  desde nuget en ambos proyectos (
 Versión resumida CLI.
 {:.message}
 
-~~~C#
+~~~csharp
 dotnet new console --name Enviar
 mv Send/Program.cs Send/Enviar.cs
 dotnet new console --name Recibir
