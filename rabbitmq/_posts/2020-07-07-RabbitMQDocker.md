@@ -34,3 +34,105 @@ Para verificar que el contenedor esté corriendo correctamente, ingresen a http:
 Si desea cambiar el nombre de usuario y la contraseña predeterminados, puede hacerlo con las variables ambientales RABBITMQ_DEFAULT_USERy RABBITMQ_DEFAULT_PASS
 {:.message}
 
+
+### Pruebas en NetCore 3.1
+Comencemos abriendo tu IDE preferido (En mi caso voy a utilizar visual studio 2019), crear una nueva solución en blanco, junto a dos proyectos de consola en NetCore 3.1 uno para enviar mensajes “DsLine.RabbitMqEnDocker.Enviar” y otro para recibir mensajes “DsLine.RabbitMqEnDocker.Recibir”.
+Luego instalar la librería de RabbitMQ.Client  desde nuget en ambos proyectos (Enviar y Recibir).
+
+Versión resumida CLI.
+{:.message}
+
+~~~C#
+dotnet new console --name Enviar
+mv Send/Program.cs Send/Enviar.cs
+dotnet new console --name Recibir
+mv Receive/Program.cs Receive/Recibir.cs
+
+cd Enviar
+dotnet add package RabbitMQ.Client
+dotnet restore
+cd ../Recibir
+dotnet add package RabbitMQ.Client
+dotnet restore
+~~~
+
+Dentro de nuestro proyecto Enviar
+Agregar el siguiente código.
+
+~~~C#
+using System;
+using RabbitMQ.Client;
+using System.Text;
+
+class ​Send
+{
+   ​public static void Main()
+   ​{
+       ​var factory = new ConnectionFactory() { HostName = "localhost" };
+       ​using(var connection = factory.CreateConnection())
+       ​using(var channel = connection.CreateModel())
+       ​{
+           ​channel.QueueDeclare(queue: "hello",
+                                ​durable: false,
+                                ​exclusive: false,
+                                ​autoDelete: false,
+                                ​arguments: null);
+
+           ​string message = "Hello World!";
+           ​var body = Encoding.UTF8.GetBytes(message);
+
+           ​channel.BasicPublish(exchange: "",
+                                ​routingKey: "hello",
+                                ​basicProperties: null,
+                                ​body: body);
+           ​Console.WriteLine(" [x] Sent {0}", message);
+       ​}
+
+       ​Console.WriteLine(" Press [enter] to exit.");
+       ​Console.ReadLine();
+   ​}
+}
+~~~
+
+Dentro de nuestro proyecto Recibir
+Agregar el siguiente código.
+
+~~~C#
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System;
+using System.Text;
+
+class Receive
+{
+    public static void Main()
+    {
+        var factory = new ConnectionFactory() { HostName = "localhost" };
+        using(var connection = factory.CreateConnection())
+        using(var channel = connection.CreateModel())
+        {
+            channel.QueueDeclare(queue: "hello",
+                                 durable: false,
+                                 exclusive: false,
+                                 autoDelete: false,
+                                 arguments: null);
+
+            var consumer = new EventingBasicConsumer(channel);
+            consumer.Received += (model, ea) =>
+            {
+                var body = ea.Body.ToArray();
+                var message = Encoding.UTF8.GetString(body);
+                Console.WriteLine(" [x] Received {0}", message);
+            };
+            channel.BasicConsume(queue: "hello",
+                                 autoAck: true,
+                                 consumer: consumer);
+
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
+        }
+    }
+}
+
+~~~
+
