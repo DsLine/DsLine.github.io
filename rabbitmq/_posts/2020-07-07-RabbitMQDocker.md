@@ -59,7 +59,7 @@ dotnet restore
 Dentro de nuestro proyecto Enviar
 Agregar el siguiente código.
 
-~~~C#
+~~~csharp
 using System;
 using RabbitMQ.Client;
 using System.Text;
@@ -99,7 +99,7 @@ An optional caption for a code block
 Dentro de nuestro proyecto Recibir
 Agregar el siguiente código.
 
-~~~C#
+~~~csharp
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
