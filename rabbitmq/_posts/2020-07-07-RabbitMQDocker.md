@@ -34,6 +34,12 @@ Para verificar que el contenedor esté corriendo correctamente, ingresen a http:
 Si desea cambiar el nombre de usuario y la contraseña predeterminados, puede hacerlo con las variables ambientales RABBITMQ_DEFAULT_USERy RABBITMQ_DEFAULT_PASS
 {:.message}
 
+Para verificar en docker que este corriendo la imagen, podemos abrir una consola de Windows Powershell  y ejecutar el siguiente comando
+~~~csharp
+docker ps
+~~~
+![Screenshot](/assets/img/RabbitMQEnDockerWPS.png)
+
 
 ### Pruebas en NetCore 3.1
 Comencemos abriendo tu IDE preferido (En mi caso voy a utilizar visual studio 2019), crear una nueva solución en blanco, junto a dos proyectos de consola en NetCore 3.1 uno para enviar mensajes “DsLine.RabbitMqEnDocker.Enviar” y otro para recibir mensajes “DsLine.RabbitMqEnDocker.Recibir”.
@@ -56,7 +62,7 @@ dotnet add package RabbitMQ.Client
 dotnet restore
 ~~~
 
-Dentro de nuestro proyecto Enviar
+Dentro de nuestro proyecto "Enviar"
 Agregar el siguiente código.
 
 ~~~csharp
@@ -95,7 +101,7 @@ class ​Send
 ~~~
 
 
-Dentro de nuestro proyecto Recibir
+Dentro de nuestro proyecto "Recibir"
 Agregar el siguiente código.
 
 ~~~csharp
@@ -136,3 +142,4 @@ class Receive
 }
 ~~~
 
+![Screenshot](/assets/img/RabbitMQEnDockerPruebas.png)
