@@ -143,3 +143,5 @@ class Receive
 ~~~
 
 ![Screenshot](/assets/img/RabbitMQEnDockerPruebas.png)
+
+Podes encontrar este ejemplo en  [GitHub](https://github.com/DsLine/DsLine.RabbitMqEnDocker)
