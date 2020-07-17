@@ -23,6 +23,7 @@ https://docs.docker.com/engine/install/ubuntu/
 Por el momento solo vamos a subir la imagen de RabbitMQ por ende vamos a usar Docker cli ejecutando el siguiente comando en la consola.
 
  docker run -d -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
 -d Nos permite correr el contendor en segundo plano.
 -p Especificamos como publicar los puertos en el host (En nuestro caso tanto interna como externamente vamos a utilizar los mismos puertos)
 rabbitmq:3-management  Por ultimo especificamos la imagen base que queremos utilizar y luego de “:” la versión de la misma “3-management”
