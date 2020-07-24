@@ -90,7 +90,7 @@ Un servicio web (en inglés, web service o web services) es una tecnología que 
 WCF (Windows comunication fundation) transmite por soap.
 API REST (Transmite por protocolo http y sus estandares)
 
- ### ¿Cuales de las siguientes opciones no forman parte de POO?
+### ¿Cuales de las siguientes opciones no forman parte de POO?
 -Abstracción
 -Polimorfismo
 -Hilos
