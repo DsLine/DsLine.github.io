@@ -15,7 +15,7 @@ noindex: true
 El Polimorfismo permite proporcionar diferentes implementaciones de un mismo método. 
 Se pude lograr mediante el uso de interfaces o la herencia de clases. Por ejemplo, una clase base puede definir e implementar métodos virtuales y sus clases derivadas sobreescribir estos métodos, lo que significa que proveen su propia implementación. En tiempo de ejecución, la clase cliente llama a un método de la clase base y se ejecuta el código correspondiente a la clase hija instanciada (Polimorfismo por herencia).
 
-En C# los métodos y propiedades virtuales se pueden sobreescribir varias veces en las distintas clases derivadas. 
+En CSharp los métodos y propiedades virtuales se pueden sobreescribir varias veces en las distintas clases derivadas. 
 Ej:       
 public class A
 {
