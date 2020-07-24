@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: entrevistas
 title: Entrevistas Programación
 description: >
   Este post fue realizado con preguntas que me realizaron en algunas entrevistas y otras que les realizaron a algunos amigos. El objetivo de este post es refrescar algunos conocimientos que vamos perdiendo y por otra parte si es que nunca escuchaste algún de estos conceptos que los puedas aprender e implementar en tu trabajo.
