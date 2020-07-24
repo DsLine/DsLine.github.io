@@ -92,7 +92,7 @@ WCF (Windows comunication fundation) transmite por soap.
 API REST (Transmite por protocolo http y sus estandares)
 
  ### ¿Cuales de las siguientes opciones no forman parte de POO?
- -Abstracción
+-Abstracción
 -Polimorfismo
 -Hilos
 -Abstracto
