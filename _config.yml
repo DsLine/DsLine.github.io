@@ -54,8 +54,8 @@ menu:
   #   url:               /hyde/
   - title:             RabbitMQ
     url:               /rabbitmq/
-  # - title:             Documentation
-  #   url:               /docs/
+  - title:             Entrevistas
+    url:               /entrevistas/
   - title:             About
     url:               /about/
 
