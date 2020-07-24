@@ -12,7 +12,8 @@ noindex: true
 ### RabbitMQ en Docker
 
 ### ¿Qué es el Web.config?
-Web.config es el archivo principal de opciones de configuración para una aplicación web en ASP.NET. El archivo es un documento XML que define información de configuración concerniente a la aplicación web. El archivo web.config contiene información que controla la carga de módulos, configuraciones de seguridad, configuraciones del estado de la sesión, opciones de compilación y el lenguaje de la aplicación. Los archivos web.config pueden contener también objetos específicos tales como cadenas de conexión a la base de datos.[Wikipedia](https://es.wikipedia.org/wiki/Web.config)
+Web.config es el archivo principal de opciones de configuración para una aplicación web en ASP.NET. El archivo es un documento XML que define información de configuración concerniente a la aplicación web. El archivo web.config contiene información que controla la carga de módulos, configuraciones de seguridad, configuraciones del estado de la sesión, opciones de compilación y el lenguaje de la aplicación. Los archivos web.config pueden contener también objetos específicos tales como cadenas de conexión a la base de datos.
+<!-- [Wikipedia](https://es.wikipedia.org/wiki/Web.config) -->
 
 ### ¿Qué es el Global.asax?
 El global.asax es el archivo de aplicación para todo proyecto ASP.NET, se encuentra en la raíz del proyecto. En él se declaran todos los eventos a nivel de aplicación como el inicio y fin de la misma, las peticiones web, etc... Es la evolución del antiguo global.asa existente en entornos de ASP clásico.
@@ -36,7 +37,8 @@ private void Page_Load(...){
 
 }
 
-Cuando una pagna se carga la primera vez el IsPosBack sera false, solo cuando se invoca a la pagina ante un evento de un control es que el IsPostBack sera true, ya que como comente este implica una llamada al servidor ante un evento de un control. [MicrosoftSocial](https://social.msdn.microsoft.com/Forums/es-ES/6654992b-a112-496d-a623-e0af352a5bbf/acerca-de-postback?forum=netfxwebes)
+Cuando una pagna se carga la primera vez el IsPosBack sera false, solo cuando se invoca a la pagina ante un evento de un control es que el IsPostBack sera true, ya que como comente este implica una llamada al servidor ante un evento de un control.
+ <!-- [MicrosoftSocial](https://social.msdn.microsoft.com/Forums/es-ES/6654992b-a112-496d-a623-e0af352a5bbf/acerca-de-postback?forum=netfxwebes) -->
 
 ### ¿Que es StateView?
 es  donde la pagina conserva los valores de los controles
@@ -54,4 +56,3 @@ El estado de la sesión ASP.NET admite varias opciones de almacenamiento diferen
 
 *Modo apagado, que deshabilita el estado de la sesión.
 
-### ¿Cuáles son los tipos de autenticación en ASP.NET?
