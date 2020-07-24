@@ -8,6 +8,9 @@ description: >
 author: author1
 noindex: true
 ---
+
+### Entrevistas C#
+
 ### Soporta C# herencia múltiple?
 No. Una clase solo puede heredar de una sola clase padre. Sin embargo, puede implementar múltiples interfaces.
 
