@@ -1,6 +1,6 @@
 ---
 layout: entrevistas
-title: Entrevistas CSharp
+title: Entrevistas C#
 description: >
   Este post fue realizado con preguntas que me realizaron en algunas entrevistas y otras que les realizaron a algunos amigos. El objetivo de este post es refrescar algunos conocimientos que vamos perdiendo y por otra parte si es que nunca escuchaste algún de estos conceptos que los puedas aprender e implementar en tu trabajo.
   Tuve la suerte de tener varias entrevista y poder realizar yo algunas entrevistas, creo que lo más importante al margen del puesto a aspirar es poder llevarte algún aprendizaje nuevo, tanto del lado del entrevistado como del entrevistador.
@@ -8,9 +8,6 @@ description: >
 author: author1
 noindex: true
 ---
-
-### C#
-
 ### Soporta C# herencia múltiple?
 No. Una clase solo puede heredar de una sola clase padre. Sin embargo, puede implementar múltiples interfaces.
 
