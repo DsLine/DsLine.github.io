@@ -84,7 +84,7 @@ Una expresión lambda es una función anónima que suele utilizarse para crear d
 Como ventaja, es un atajo para escribir un método exactamente en el lugar donde va a ser utilizado, sin necesidad de declararlo y escribirlo como un método aparte en alguna clase.
 
 
- ### ¿Que son los Web Services?
+### ¿Que son los Web Services?
 Un servicio web (en inglés, web service o web services) es una tecnología que utiliza un conjunto de protocolos y estándares que sirven para intercambiar datos entre aplicaciones. Distintas aplicaciones de software desarrolladas en lenguajes de programación diferentes, y ejecutadas sobre cualquier plataforma, pueden utilizar los servicios web para intercambiar datos en redes de ordenadores como Internet. La interoperabilidad se consigue mediante la adopción de estándares abiertos. Las organizaciones OASIS y W3C son los comités responsables de la arquitectura y reglamentación de los servicios Web. Para mejorar la interoperabilidad entre distintas implementaciones de servicios Web se ha creado el organismo WS-I, encargado de desarrollar diversos perfiles para definir de manera más exhaustiva estos estándares. Es una máquina que atiende las peticiones de los clientes web y les envía los recursos solicitados.
 
 WCF (Windows comunication fundation) transmite por soap.
