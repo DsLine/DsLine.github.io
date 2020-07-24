@@ -9,7 +9,7 @@ author: author1
 noindex: true
 ---
 
-### RabbitMQ en Docker
+### Entrevistas ASP.NET
 
 ### ¿Qué es el Web.config?
 Web.config es el archivo principal de opciones de configuración para una aplicación web en ASP.NET. El archivo es un documento XML que define información de configuración concerniente a la aplicación web. El archivo web.config contiene información que controla la carga de módulos, configuraciones de seguridad, configuraciones del estado de la sesión, opciones de compilación y el lenguaje de la aplicación. Los archivos web.config pueden contener también objetos específicos tales como cadenas de conexión a la base de datos.
