@@ -72,9 +72,4 @@ Para demostrar su funcionamiento vamos a llamar desde Postman al microservicio â
 
 ![Screenshot](/assets/img/RegistroLogsTenant2.png)
 
-~~~yml
-layout: post
-title: RabbitMq multitenant DB
-image: /assets/img/blog/Postman tenant1.png
-color: '#949667'
-~~~
+Podes encontrar este ejemplo en  [GitHub](https://github.com/DsLine/DsLine.RabbitMQMultitenantDB)
