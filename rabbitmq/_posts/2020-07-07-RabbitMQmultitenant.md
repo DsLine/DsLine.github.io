@@ -70,6 +70,6 @@ Para demostrar su funcionamiento vamos a llamar desde Postman al microservicio â
 ![Screenshot](/assets/img/PostmanTenant2.png)
 
 
-![Screenshot](/assets/img/RegistroLogsTenant2.png)
+![Screenshot](/assets/img/RegistrosLogsTenant2.png)
 
 Podes encontrar este ejemplo en  [GitHub](https://github.com/DsLine/DsLine.RabbitMQMultitenantDB)
