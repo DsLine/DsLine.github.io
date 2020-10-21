@@ -12,7 +12,7 @@ image: /assets/img/blog/hydejack-8.png
 
 
 ## Autor
-**Frabrizio contin**: Desde mi punto de vista, el camino deseado es elegir el mejor posible, el mas optimo. Teniendo definido dicho sendero, comenzar con su construcción.
+**Frabrizio Contin**: Desde mi punto de vista, el camino deseado es elegir el mejor posible, el más óptimo. Teniendo definido dicho sendero, comenzar con su construcción.
 
 [Linkedin]
 
