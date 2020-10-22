@@ -56,6 +56,8 @@ menu:
     url:               /rabbitmq/
   - title:             Entrevistas
     url:               /entrevistas/
+  - title:             Performance
+    url:               /performance/
   - title:             About
     url:               /about/
 
